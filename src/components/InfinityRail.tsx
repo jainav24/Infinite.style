@@ -6,7 +6,12 @@ import { useNavigate } from 'react-router-dom';
 
 import productsData from '../data/products.json';
 
-const InfinityPath = ({ products, radius = 5 }) => {
+interface InfinityPathProps {
+  products: any[];
+  radius?: number;
+}
+
+const InfinityPath = ({ products, radius = 5 }: InfinityPathProps) => {
   const navigate = useNavigate();
   const groupRef = useRef<THREE.Group>(null);
   
@@ -40,7 +45,7 @@ const InfinityPath = ({ products, radius = 5 }) => {
             key={product.id} 
             product={product} 
             position={[x, y, z]} 
-            onHover={(v) => setHovered(v ? i : null)}
+            onHover={(v: boolean) => setHovered(v ? i : null)}
             onClick={() => navigate(`/product/${product.id}`)}
           />
         );
@@ -49,7 +54,14 @@ const InfinityPath = ({ products, radius = 5 }) => {
   );
 };
 
-const RailItem = ({ product, position, onHover, onClick }) => {
+interface RailItemProps {
+  product: any;
+  position: [number, number, number];
+  onHover: (hovered: boolean) => void;
+  onClick: () => void;
+}
+
+const RailItem = ({ product, position, onHover, onClick }: RailItemProps) => {
   const meshRef = useRef<THREE.Mesh>(null);
   const [hovered, setHover] = useState(false);
 

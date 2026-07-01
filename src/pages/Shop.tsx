@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { useLocation } from 'react-router-dom';
-import { Filter, X, Search } from 'lucide-react';
+import { Filter, Search } from 'lucide-react';
 import ProductCard from '../components/ProductCard';
 import SocialCard from '../components/SocialCard';
 import { motion, AnimatePresence } from 'framer-motion';

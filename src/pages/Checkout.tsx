@@ -1,12 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
 import { ArrowLeft, ArrowRight } from 'lucide-react';
 
 const Checkout: React.FC = () => {
-  const { cart, cartTotal, clearCart } = useCart();
+  const { cart, cartTotal } = useCart();
   const navigate = useNavigate();
-  const [isProcessing, setIsProcessing] = useState(false);
 
   const shipping = cartTotal > 100 ? 0 : 9.99;
   const tax = cartTotal * 0.08;
