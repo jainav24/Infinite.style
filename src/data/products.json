@@ -1,0 +1,366 @@
+[
+  {
+    "id": "p-kitty",
+    "name": "Kitty Tshirt",
+    "price": 1299,
+    "category": "tops",
+    "image": "/Kitty/kitty1.png",
+    "images": [
+      "/Kitty/kitty1.png",
+      "/Kitty/kitty2.png",
+      "/Kitty/kitty3.png",
+      "/Kitty/kitty4.png"
+    ],
+    "rating": 5,
+    "reviews": 12,
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      "White",
+      "Black"
+    ],
+    "description": "Cute kitty graphic t-shirt. A must-have for your everyday casual look.",
+    "featured": true,
+    "newArrival": true
+  },
+  {
+    "id": "p-gym",
+    "name": "Gym Activewear",
+    "price": 1499,
+    "category": "tops",
+    "image": "/gym/gym1.png",
+    "images": [
+      "/gym/gym1.png",
+      "/gym/gym2.png"
+    ],
+    "rating": 5,
+    "reviews": 24,
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      "Black",
+      "Grey"
+    ],
+    "description": "Perfect activewear for your daily workout and gym sessions.",
+    "featured": true,
+    "newArrival": true
+  },
+  {
+    "id": "p-lilo",
+    "name": "Lilo Graphic Tee",
+    "price": 1199,
+    "category": "tops",
+    "image": "/Lilo/lilo1.png",
+    "images": [
+      "/Lilo/lilo1.png",
+      "/Lilo/lilo2.png"
+    ],
+    "rating": 4.8,
+    "reviews": 18,
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      "Blue",
+      "White"
+    ],
+    "description": "Cute Lilo graphic t-shirt for a relaxed and fun look.",
+    "featured": true,
+    "newArrival": true
+  },
+  {
+    "id": "p-pink",
+    "name": "Pink Casual Top",
+    "price": 1599,
+    "category": "tops",
+    "image": "/pink/pink1.png",
+    "images": [
+      "/pink/pink1.png",
+      "/pink/pink2.png",
+      "/pink/pink3.png"
+    ],
+    "rating": 4.9,
+    "reviews": 32,
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      "Pink",
+      "White"
+    ],
+    "description": "Beautiful pink top, perfect for casual outings and hangouts.",
+    "featured": true,
+    "newArrival": true
+  },
+  {
+    "id": "p1",
+    "name": "Pastel Dream Maxi Dress",
+    "price": 2499,
+    "category": "dresses",
+    "image": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?auto=format&fit=crop&q=80&w=800",
+    "rating": 4.8,
+    "reviews": 124,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      "Pink",
+      "Lavender",
+      "White"
+    ],
+    "description": "A beautiful flowy maxi dress in pastel hues, perfect for summer days or evening parties.",
+    "featured": true,
+    "newArrival": true
+  },
+  {
+    "id": "p2",
+    "name": "Sparkle Ribbed Crop Top",
+    "price": 899,
+    "category": "tops",
+    "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&q=80&w=800",
+    "rating": 4.5,
+    "reviews": 89,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Coral",
+      "Black",
+      "White"
+    ],
+    "description": "A trendy ribbed crop top with subtle sparkle accents.",
+    "featured": true,
+    "newArrival": false
+  },
+  {
+    "id": "p3",
+    "name": "Daisy Chain Hair Clips",
+    "price": 399,
+    "category": "accessories",
+    "image": "https://images.unsplash.com/photo-1596783042555-4676571baef4?auto=format&fit=crop&q=80&w=800",
+    "rating": 4.9,
+    "reviews": 45,
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Yellow",
+      "Pink",
+      "Blue"
+    ],
+    "description": "Set of 3 adorable daisy chain hair clips to add a pop of fun to any hairstyle.",
+    "featured": false,
+    "newArrival": true
+  },
+  {
+    "id": "p4",
+    "name": "Chunky Platform Sneakers",
+    "price": 2799,
+    "category": "footwear",
+    "image": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&q=80&w=800",
+    "rating": 4.7,
+    "reviews": 210,
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "colors": [
+      "White",
+      "Blush Pink"
+    ],
+    "description": "Elevate your look with these comfortable and stylish chunky platform sneakers.",
+    "featured": true,
+    "newArrival": false
+  },
+  {
+    "id": "p5",
+    "name": "Floral Tiered Skirt",
+    "price": 1599,
+    "category": "dresses",
+    "image": "https://images.unsplash.com/photo-1583391733958-d25e07fac044?auto=format&fit=crop&q=80&w=800",
+    "rating": 4.6,
+    "reviews": 76,
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      "Blue",
+      "Pink Floral"
+    ],
+    "description": "A lovely tiered skirt with a vibrant floral pattern. Perfect for pairing with your favorite basic tee.",
+    "featured": false,
+    "newArrival": true
+  },
+  {
+    "id": "p6",
+    "name": "Oversized Graphic Hoodie",
+    "price": 1499,
+    "category": "tops",
+    "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&q=80&w=800",
+    "rating": 4.9,
+    "reviews": 312,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      "Lavender",
+      "Grey",
+      "Black"
+    ],
+    "description": "Super soft, oversized hoodie featuring a cute graphic print on the back.",
+    "featured": true,
+    "newArrival": true
+  },
+  {
+    "id": "p7",
+    "name": "Heart Shaped Sunglasses",
+    "price": 599,
+    "category": "accessories",
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&q=80&w=800",
+    "rating": 4.8,
+    "reviews": 156,
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Red",
+      "Pink"
+    ],
+    "description": "Make a statement with these retro heart-shaped sunglasses.",
+    "featured": true,
+    "newArrival": false
+  },
+  {
+    "id": "p8",
+    "name": "Lace-up Combat Boots",
+    "price": 2999,
+    "category": "footwear",
+    "image": "https://images.unsplash.com/photo-1520639888713-7851133b1ed0?auto=format&fit=crop&q=80&w=800",
+    "rating": 4.5,
+    "reviews": 98,
+    "sizes": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "colors": [
+      "Black",
+      "Burgundy"
+    ],
+    "description": "Edgy and durable lace-up combat boots.",
+    "featured": false,
+    "newArrival": true
+  },
+  {
+    "id": "p9",
+    "name": "Ruffle Sleeve Blouse",
+    "price": 799,
+    "category": "tops",
+    "image": "https://images.unsplash.com/photo-1564584217132-2271feaeb3c5?auto=format&fit=crop&q=80&w=800",
+    "rating": 4.3,
+    "reviews": 42,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      "Cream",
+      "Mint",
+      "Coral"
+    ],
+    "description": "Elegant blouse with delicate ruffle sleeves.",
+    "featured": false,
+    "newArrival": false
+  },
+  {
+    "id": "p10",
+    "name": "Denim Overalls",
+    "price": 2299,
+    "category": "dresses",
+    "image": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&q=80&w=800",
+    "rating": 4.7,
+    "reviews": 112,
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      "Light Wash",
+      "Dark Wash"
+    ],
+    "description": "Classic denim overalls with a relaxed fit.",
+    "featured": true,
+    "newArrival": false
+  },
+  {
+    "id": "p11",
+    "name": "Gold Layered Necklace",
+    "price": 699,
+    "category": "accessories",
+    "image": "https://images.unsplash.com/photo-1599643478524-fb66f70d00a8?auto=format&fit=crop&q=80&w=800",
+    "rating": 4.6,
+    "reviews": 67,
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      "Gold"
+    ],
+    "description": "Dainty layered necklace in soft gold.",
+    "featured": false,
+    "newArrival": true
+  },
+  {
+    "id": "p12",
+    "name": "Slip-on Canvas Shoes",
+    "price": 1299,
+    "category": "footwear",
+    "image": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&q=80&w=800",
+    "rating": 4.4,
+    "reviews": 185,
+    "sizes": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "colors": [
+      "White",
+      "Lavender",
+      "Yellow"
+    ],
+    "description": "Easy slip-on canvas shoes for everyday wear.",
+    "featured": false,
+    "newArrival": false
+  }
+]

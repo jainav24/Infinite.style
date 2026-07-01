@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-body bg-porcelain text-ink antialiased selection:bg-orchid selection:text-white;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-tight;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF7F2; /* porcelain */
+}
+::-webkit-scrollbar-thumb {
+  background: #E8D9B5; /* champagne */
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #E83E8C; /* orchid */
+}
+
+/* Garment Tag Utility */
+.garment-tag {
+  @apply font-mono uppercase tracking-[0.08em] text-xs border border-dashed border-champagne bg-white text-ink px-2 py-1 relative;
+}
+.garment-tag::before {
+  content: '';
+  position: absolute;
+  left: -4px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #E8D9B5;
+}

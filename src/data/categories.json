@@ -1,0 +1,26 @@
+[
+  {
+    "id": "c1",
+    "name": "Dresses",
+    "image": "https://images.unsplash.com/photo-1515347619362-7ddbfdb6050b?auto=format&fit=crop&q=80&w=800",
+    "slug": "dresses"
+  },
+  {
+    "id": "c2",
+    "name": "Tops",
+    "image": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?auto=format&fit=crop&q=80&w=800",
+    "slug": "tops"
+  },
+  {
+    "id": "c3",
+    "name": "Accessories",
+    "image": "https://images.unsplash.com/photo-1509319117193-57bab727e09d?auto=format&fit=crop&q=80&w=800",
+    "slug": "accessories"
+  },
+  {
+    "id": "c4",
+    "name": "Footwear",
+    "image": "https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&q=80&w=800",
+    "slug": "footwear"
+  }
+]
