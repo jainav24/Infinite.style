@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Mail } from 'lucide-react';
 
 const Footer: React.FC = () => {
   const location = useLocation();
@@ -24,10 +23,16 @@ const Footer: React.FC = () => {
             <p className="font-body text-sm text-porcelain/70 mb-8 leading-relaxed max-w-sm">
               Your ultimate destination for trendy, premium fashion. Dream big, style bigger. Designed for the bold.
             </p>
-            <div className="flex items-center gap-6 font-mono text-xs uppercase tracking-widest text-porcelain/50">
-              <a href="#" className="hover:text-orchid transition-colors">IG</a>
-              <a href="#" className="hover:text-orchid transition-colors">TW</a>
-              <a href="#" className="hover:text-orchid transition-colors">FB</a>
+            <div className="flex items-center gap-6 text-porcelain/50">
+              <a href="#" className="hover:text-orchid transition-colors" aria-label="Instagram">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+              </a>
+              <a href="#" className="hover:text-orchid transition-colors" aria-label="Twitter">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+              </a>
+              <a href="#" className="hover:text-orchid transition-colors" aria-label="Facebook">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+              </a>
             </div>
           </div>
 
@@ -54,25 +59,24 @@ const Footer: React.FC = () => {
             </ul>
           </div>
 
-          {/* Newsletter */}
+          {/* Location */}
           <div className="md:col-span-4">
-            <h4 className="font-mono text-xs uppercase tracking-[0.1em] text-porcelain/50 mb-6">The Loop</h4>
-            <p className="font-body text-sm text-porcelain/70 mb-6">Subscribe for exclusive drops, sales, and style curations.</p>
-            <form className="flex">
-              <input
-                type="email"
-                placeholder="EMAIL ADDRESS"
-                className="w-full bg-transparent border-b border-champagne/30 px-0 py-3 font-mono text-xs uppercase text-porcelain focus:border-orchid focus:outline-none transition-colors placeholder:text-porcelain/30"
-                required
-              />
-              <button
-                type="submit"
-                className="border-b border-champagne/30 px-4 py-3 text-orchid hover:text-porcelain hover:border-porcelain transition-colors"
-                aria-label="Subscribe"
-              >
-                <Mail size={18} strokeWidth={1.5} />
-              </button>
-            </form>
+            <h4 className="font-mono text-xs uppercase tracking-[0.1em] text-porcelain/50 mb-6">Visit Us</h4>
+            <div className="w-full h-40 rounded-xl overflow-hidden border border-champagne/20">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.25279986985!2d-74.144487874252!3d40.6976312333919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen={false}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <p className="font-body text-sm text-porcelain/70 mt-4 leading-relaxed">
+              123 Fashion Ave,<br />
+              New York, NY 10001
+            </p>
           </div>
         </div>
 
