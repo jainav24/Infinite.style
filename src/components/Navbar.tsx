@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Heart, ShoppingBag, User, Menu, X } from 'lucide-react';
+import { ShoppingBag, User, Menu, X } from 'lucide-react';
 import { useCart } from '../context/CartContext';
-import { useWishlist } from '../context/WishlistContext';
+
 import { useAuth } from '../context/AuthContext';
 
 const Navbar: React.FC = () => {
@@ -10,7 +10,6 @@ const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const location = useLocation();
   const { cartCount } = useCart();
-  const { wishlist } = useWishlist();
   const { user } = useAuth();
 
   const isTransparentHome = location.pathname === '/' && !isScrolled;
@@ -85,14 +84,7 @@ const Navbar: React.FC = () => {
                 <User size={isScrolled ? 18 : 20} strokeWidth={2} />
               </Link>
 
-              <Link to="/wishlist" className={`relative transition-all duration-300 hover:scale-110 ${isTransparentHome ? 'text-porcelain drop-shadow-md hover:text-orchid' : 'text-ink hover:text-orchid'}`}>
-                <Heart size={isScrolled ? 18 : 20} strokeWidth={2} />
-                {wishlist.length > 0 && (
-                  <span className="absolute -right-2 -top-2 flex h-4 w-4 items-center justify-center rounded-full bg-orchid text-[10px] font-fjalla font-bold text-porcelain shadow-[0_0_8px_rgba(232,62,140,0.6)]">
-                    {wishlist.length}
-                  </span>
-                )}
-              </Link>
+
 
               <Link to="/cart" className={`relative transition-all duration-300 hover:scale-110 ${isTransparentHome ? 'text-porcelain drop-shadow-md hover:text-orchid' : 'text-ink hover:text-orchid'}`}>
                 <ShoppingBag size={isScrolled ? 18 : 20} strokeWidth={2} />

@@ -36,7 +36,7 @@ const HeroSlideshow: React.FC = () => {
   }, []);
 
   return (
-    <div className="relative w-full h-screen overflow-hidden bg-velvet">
+    <div className="relative w-full h-screen overflow-hidden bg-ink">
       <AnimatePresence>
         <motion.div
           key={currentSlide}
